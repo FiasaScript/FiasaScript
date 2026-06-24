@@ -3,6 +3,15 @@
 </p>
 
 <br>
+<p>
+  🟣 Cursando Ciências de Dados Aplicada 💻
+</p>
+
+<p>
+  🟢 Codando em Python 🐍
+</p>
+
+<br>
 
 <p align="center">
   <img height="100em" src="https://github-readme-stats.vercel.app/api?username=FiasaScript&show_icons=true&theme=merko&border_color=cd8d00&locale=pt-br" alt="Estatísticas do GitHub" />
@@ -11,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img width="5.5%" alt="unifei_badge" src="https://github.com/user-attachments/assets/a4e78cd5-558e-4aae-ab7c-689857ba6602"/>
+  <img width="6.3%" alt="unifei_badge" src="https://github.com/user-attachments/assets/a4e78cd5-558e-4aae-ab7c-689857ba6602"/>
   
   <img src="https://raw.githubusercontent.com/kanao-v/kanao-v/main/assets/transparent.png" width="8" height="0"/>
   
