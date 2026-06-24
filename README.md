@@ -8,7 +8,6 @@
   <img height="100em" src="https://github-readme-stats.vercel.app/api?username=FiasaScript&show_icons=true&theme=merko&border_color=cd8d00&locale=pt-br" alt="Estatísticas do GitHub" />
   <img height="100em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FiasaScript&layout=compact&theme=merko&border_color=cd8d00&locale=pt-br" alt="Linguagens mais usadas" />
 </p>
-
 <br>
 
 <p align="center">
@@ -27,6 +26,11 @@
   </a>
 </p>
 
+<br>
+
+<p align="center">
+  <img width="75%" src="https://isometric-contributions-spectrewolf8.onrender.com/api/graph?username=FiasaScript&theme=dark&stats=true" />
+</p>
 
 <!--
 **FiasaScript/FiasaScript** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
