@@ -1,4 +1,4 @@
-name: Generate Isometric Contributions
+name: Generate 3D Contributions
 
 on:
   schedule:
@@ -9,16 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Isometric 3D Calendar
-        uses: jasonlong/github-isometric-contributions@main
-        with:
-          user_name: FiasaScript
-          theme: github-dark
-
-      - name: Push image to repository
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: .
+      - uses: actions/checkout@v3
+      
+      - name: Generate 3D Calendar
+        uses: yoshi389111/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: FiasaScript
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update 3D contributions" || exit 0
+          git push
