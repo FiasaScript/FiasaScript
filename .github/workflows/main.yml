@@ -1,10 +1,8 @@
 name: Generate Isometric Contributions
 
 on:
-  # Roda automaticamente a cada 24 horas
   schedule:
     - cron: "0 0 * * *"
-  # Permite que você rode manualmente quando quiser
   workflow_dispatch:
 
 jobs:
@@ -12,10 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate Isometric 3D Calendar
-        uses: jasonlong/github-isometric-contributions@v1.4
+        uses: jasonlong/github-isometric-contributions@main
         with:
           user_name: FiasaScript
-          # Você pode escolher o tema: "classic" (verde GitHub) ou "github-dark" (combina com seu setup)
           theme: github-dark
 
       - name: Push image to repository
