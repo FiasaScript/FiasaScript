@@ -11,6 +11,12 @@
   🟢 Codando em Python 🐍
 </p>
 
+---
+## About me
+<p>Just a car enthusiast struggling to restore a '97 Palio Weekend (tells you pretty much everything 'bout my username). First-year Data Science student @UNIFEI, Brazil. When I'm not under a car hood or debugging code, I like to hike, explore new places, and be with my family. My projects are mostly based on Python, data analysis, and trying to make machine learning actually work..</p>
+
+---
+
 <br>
 
 <p align="center">
